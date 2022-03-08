@@ -33,7 +33,7 @@ function generatePassword() {
 
   if (chars.length === 0) {
     alert("You didn't select any letters, numbers or characters. Try again and do better.");
-    generatePassword();
+    writePassword();
   }
 
   function getRandomInt(max) {
